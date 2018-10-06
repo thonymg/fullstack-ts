@@ -1,0 +1,12 @@
+@import '../node_modules/spectre.css/dist/spectre-icons.min.css';
+@import '../node_modules/spectre.css/dist/spectre.min.css';
+@import '../node_modules/spectre.css/dist/spectre-exp.min.css';
+
+.App {
+  text-align: center;
+  margin: 20px 40px;
+}
+
+.App-header {
+  margin-bottom: 40px;
+}

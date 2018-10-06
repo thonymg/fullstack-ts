@@ -1,0 +1,27 @@
+# import User "../user/user.types.graphql"
+
+type Project {
+  author: User,
+  createdAt: String,
+  id: ID!,
+  project: String!,
+  description: String!,
+  updatedAt: String
+}
+
+type Query {
+  allProjects: [Project]
+}
+
+type Mutation {
+  userProjects(email: String!): [Project]
+
+  createProject(email: String!, project: String!, description: String!): Project
+
+  updateProject(
+    project: String,
+    description: String,
+    updatedAt: String
+  ): Project
+  deleteProject(id: ID!): Project
+}

@@ -1,0 +1,13 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "logging": false,
+  "database": "d4y",
+  "entities": ["./src/**/*.entity{.ts,.js}", "./dist/**/*.entity{.ts,.js}"],
+  "synchronize": true,
+  "connectTimeoutMS": 2000
+}
+
+
+

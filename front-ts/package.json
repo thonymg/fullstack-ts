@@ -1,0 +1,35 @@
+{
+  "name": "front-ts",
+  "version": "0.0.0",
+  "description": "front-ts",
+  "author": "thonymg",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^3.6.1",
+    "@types/moment-timezone": "^0.5.9",
+    "apollo-boost": "^0.1.16",
+    "graphql": "^14.0.2",
+    "react": "^16.5.2",
+    "react-apollo": "^2.2.4",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-ts": "3.1.0",
+    "spectre.css": "^0.5.3"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.0.1",
+    "@types/jest": "^23.3.3",
+    "@types/node": "^10.11.4",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.8",
+    "@types/react-router-dom": "^4.3.1",
+    "typescript": "^3.1.1"
+  }
+}
